@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.alice.demo_linelogin.MainActivity">
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_press"
+            android:text="Log in"
+            android:gravity="center"
+            android:clickable="true"
+            android:paddingLeft="40dp"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/btn_browser_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_press"
+            android:text="Browser"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:clickable="true"
+            android:textColor="#FFFFFF"/>
+
+</LinearLayout>
