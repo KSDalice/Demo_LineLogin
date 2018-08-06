@@ -6,5 +6,5 @@ package com.example.alice.demo_linelogin;
 
 public class Constants {
     //Change your CANNEL_ID
-    public final static String CHANNEL_ID="1598640371";
+    public final static String CHANNEL_ID="";
 }
